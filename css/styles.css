@@ -146,7 +146,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    opacity: 1;
     overflow: auto;
+}
+
+.mob-menu.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .mob-menu-link, .mob-menu-tel-link, .mob-menu-link-sp {
@@ -213,6 +220,7 @@ body {
     position: absolute;
     top: 24px;
     right: 24px;
+    /* margin-left: 381px; */
 
     display: flex;
     justify-content: center;
