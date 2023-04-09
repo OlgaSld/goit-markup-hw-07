@@ -16,15 +16,13 @@
 }
 
 .footer-logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: block;
+    text-align: center;
 }
 
 .portfolio-menu-card {
     flex-wrap: wrap;
     gap: 16px 24px;
-    margin-right: 24px;
     margin-bottom: 48px;
 }
 
@@ -85,7 +83,7 @@
     width: 100%;
     height: 4px;
     left: 0px;
-    top: 45px;
+    top: 49px;
     background: var(--accent-color);
     border-radius: 2px;
 }
@@ -251,6 +249,10 @@
     padding-bottom: 24px;
 }
 
+.header-link.current::after {
+    top: 45px;
+}
+
 .logo {
     margin-right: 76px;
 }
@@ -262,6 +264,7 @@
 
 .address-link {
     font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     color: var(--color-text-main);
 
@@ -310,7 +313,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 24px;
+    margin-bottom: 8px;
     height: 112px;
     background: var(--backround-light);
     border-radius: 4px;
@@ -372,16 +375,13 @@
     margin-right: o;
 }
 
-.footer-text-div {
-    margin-right: 120px;
-}
-
 .footer-social-media {
     margin-right: 80px;
 }
 
 .footer-form-input {
     width: 264px;
+    margin-bottom: 0;
 }
 
 .portfolio {
